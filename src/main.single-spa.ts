@@ -1,3 +1,4 @@
+import 'zone.js';
 import { enableProdMode, NgZone } from '@angular/core';
 import { Router, NavigationStart } from '@angular/router';
 import { singleSpaAngular, getSingleSpaExtraProviders } from 'single-spa-angular';
